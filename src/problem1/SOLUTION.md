@@ -6,4 +6,5 @@ grep '"symbol": "TSLA".*"side": "sell"' transaction-log.txt | sed -E 's/.*"order
 
 The result should be like this:
 https://example.com/api/12346
+
 https://example.com/api/12362
