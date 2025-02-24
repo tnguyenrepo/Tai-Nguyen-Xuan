@@ -1,4 +1,5 @@
 Provide your solution here: Building Castle In The Cloud
+
 **I. Overview Diagram**
 ![tai AWS Architecture (2)](https://github.com/user-attachments/assets/e3891377-3f56-42c4-9af5-1affebb3a802)
 
@@ -82,7 +83,7 @@ Amazon CloudWatch:
 - SQS supports virtually unlimited message queuing.
 
 
-**Future Growth Considerations**
+**III. Plans for scaling when the product grows beyond your current setup.**
 
 1. Microservices Architecture:
 
