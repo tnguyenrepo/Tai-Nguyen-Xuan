@@ -7,6 +7,7 @@ Provide your solution here: Building Castle In The Cloud
 **II. Elaboration on why each cloud service is used and what are the alternatives considered.**
 
 **1. Infra Layer**
+
 Amazon CloudFront:
 
 - For caching and low-latency delivery.
@@ -14,7 +15,10 @@ Amazon CloudFront:
 Elastic Load Balancer (ALB):
 
 - Distributes traffic across application servers in multiple Availability Zones.
+  
+Route 53: - DNS and geolocation routing.
 
+Global Accelerator: - Optimized routing for low-latency access.
 
 **2. Application Layer**
 Amazon EKS
@@ -68,20 +72,24 @@ Amazon CloudWatch:
 
 2. Application Layer Scaling:
 
+- Authentication: AWS Cognito (user authentication).
+
 - EKS auto-scales based on CPU/memory usage and request rates.
 
 - API Gateway scales horizontally with incoming API requests.
 
 3. Data Layer Scaling:
 
-- Aurora supports read replicas and auto-scaling storage.
+- Amazon Aurora supports read replicas and auto-scaling storage.
 
 - ElastiCache clusters can be scaled horizontally.
 
+- S3: Static asset storage
+
 4. Event Handling Scaling:
 
-- SQS supports virtually unlimited message queuing.
-
+- SQS/SNS: For asynchronous communication between microservices.
+- Kinesis Data Streams: For real-time market data processing.
 
 **III. Plans for scaling when the product grows beyond your current setup.**
 
