@@ -1,6 +1,7 @@
 Provide your solution here: Building Castle In The Cloud
 **I. Overview Diagram**
-![tai AWS Architecture (1)](https://github.com/user-attachments/assets/77d42850-533a-4c9e-8ab9-0837bf39bc8a)
+![tai AWS Architecture (2)](https://github.com/user-attachments/assets/e3891377-3f56-42c4-9af5-1affebb3a802)
+
 
 **II. Elaboration on why each cloud service is used and what are the alternatives considered.**
 
